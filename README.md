@@ -33,3 +33,26 @@ The dataset used in SymptomDiagnoser is a crucial component of the project. Orig
 <div align="center">
   <img src="https://github.com/HassanKhalil321/SymptomDiagnoser/blob/main/assets/ppp.png" width="600" hight='500'/>
 </div>
+
+
+## Getting Started with Docker
+
+To quickly start using the MRI Image Segmentation application, you can pull the pre-built Docker image from Docker Hub and run it locally.
+
+### Prerequisites
+
+- **Docker**: Ensure you have Docker installed on your machine. You can download it from [Docker's official website](https://www.docker.com/products/docker-desktop).
+
+### Steps to Run the Application
+
+1. **Pull the Docker Image**
+
+   Open your terminal and run the following command to pull the Docker image from Docker Hub:
+
+   ```bash
+   docker pull hassankhalil123/disease_catcher
+2. **RUN the Docker Image**
+
+   ```bash
+   docker run -p 5000:5000 hassankhalil123/disease_catcher
+3. Open your browser and go to http://localhost:5000 to access the application.
